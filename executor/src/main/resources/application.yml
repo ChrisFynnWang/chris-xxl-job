@@ -1,0 +1,12 @@
+server:
+  port: 8081
+xxl:
+  server:
+    app-name: wangfanjob
+    addresses: http://192.168.1.160:8080
+    ip: 127.0.0.1
+    port: 9999
+    log-path: /data/applogs/xxl-job/jobhandler
+spring:
+  application:
+    name: wangfanjob
