@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/executor/executor.iml" filepath="$PROJECT_DIR$/executor/executor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wangfan-job.iml" filepath="$PROJECT_DIR$/.idea/wangfan-job.iml" />
-      <module fileurl="file://$PROJECT_DIR$/console/xxl-job-admin.iml" filepath="$PROJECT_DIR$/console/xxl-job-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-admin/xxl-job-admin.iml" filepath="$PROJECT_DIR$/xxl-job-admin/xxl-job-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-core/xxl-job-core.iml" filepath="$PROJECT_DIR$/xxl-job-core/xxl-job-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/xxl-job-executor-sample-springboot.iml" filepath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/xxl-job-executor-sample-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-samples.iml" filepath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-executor-springboot-example/xxl-job-executor-springboot-example.iml" filepath="$PROJECT_DIR$/xxl-job-executor-springboot-example/xxl-job-executor-springboot-example.iml" />
     </modules>
   </component>
 </project>

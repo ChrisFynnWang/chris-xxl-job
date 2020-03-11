@@ -6,13 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xxl-job-admin" />
+        <module name="xxl-job-executor-springboot-example" />
+        <module name="xxl-job-executor-sample-springboot" />
         <module name="executor" />
+        <module name="xxl-job-core" />
+        <module name="xxl-job-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="executor" target="1.8" />
-      <module name="xxl-job-admin" target="1.7" />
+      <module name="wangfan-job" target="1.8" />
+      <module name="xxl-job-admin" target="1.8" />
+      <module name="xxl-job-core" target="1.8" />
+      <module name="xxl-job-executor-sample-springboot" target="1.8" />
+      <module name="xxl-job-executor-samples" target="1.8" />
+      <module name="xxl-job-executor-springboot-example" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
