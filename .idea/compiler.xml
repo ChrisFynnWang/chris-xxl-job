@@ -6,11 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xxl-job-executor-springboot-example" />
         <module name="xxl-job-executor-sample-springboot" />
-        <module name="executor" />
-        <module name="xxl-job-core" />
+        <module name="xxl-rpc-sample-jfinal-client" />
+        <module name="xxl-rpc-sample-springboot-client" />
+        <module name="xxl-rpc-sample-springboot-api" />
+        <module name="xxl-job-executor-springboot-example" />
+        <module name="xxl-rpc-sample-frameless-server" />
+        <module name="xxl-rpc-sample-frameless-api" />
+        <module name="xxl-rpc-sample-jfinal-api" />
+        <module name="xxl-rpc-sample-jfinal-server" />
+        <module name="xxl-rpc-sample-springboot-server" />
         <module name="xxl-job-admin" />
+        <module name="xxl-job-core" />
+        <module name="xxl-rpc-core" />
+        <module name="executor" />
+        <module name="xxl-rpc-sample-frameless-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +31,21 @@
       <module name="xxl-job-executor-sample-springboot" target="1.8" />
       <module name="xxl-job-executor-samples" target="1.8" />
       <module name="xxl-job-executor-springboot-example" target="1.7" />
+      <module name="xxl-rpc" target="1.7" />
+      <module name="xxl-rpc-core" target="1.7" />
+      <module name="xxl-rpc-sample-frameless" target="1.7" />
+      <module name="xxl-rpc-sample-frameless-api" target="1.7" />
+      <module name="xxl-rpc-sample-frameless-client" target="1.7" />
+      <module name="xxl-rpc-sample-frameless-server" target="1.7" />
+      <module name="xxl-rpc-sample-jfinal" target="1.7" />
+      <module name="xxl-rpc-sample-jfinal-api" target="1.7" />
+      <module name="xxl-rpc-sample-jfinal-client" target="1.7" />
+      <module name="xxl-rpc-sample-jfinal-server" target="1.7" />
+      <module name="xxl-rpc-sample-springboot" target="1.7" />
+      <module name="xxl-rpc-sample-springboot-api" target="1.7" />
+      <module name="xxl-rpc-sample-springboot-client" target="1.7" />
+      <module name="xxl-rpc-sample-springboot-server" target="1.7" />
+      <module name="xxl-rpc-samples" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

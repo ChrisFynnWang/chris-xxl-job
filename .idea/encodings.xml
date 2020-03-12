@@ -9,6 +9,21 @@
     <file url="file://$PROJECT_DIR$/xxl-job-executor-samples" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xxl-job-executor-springboot-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-frameless" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-frameless/xxl-rpc-sample-frameless-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-frameless/xxl-rpc-sample-frameless-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-frameless/xxl-rpc-sample-frameless-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-jfinal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-jfinal/xxl-rpc-sample-jfinal-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-jfinal/xxl-rpc-sample-jfinal-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-jfinal/xxl-rpc-sample-jfinal-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-springboot/xxl-rpc-sample-springboot-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-springboot/xxl-rpc-sample-springboot-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-springboot/xxl-rpc-sample-springboot-server" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

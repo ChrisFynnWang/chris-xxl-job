@@ -3,6 +3,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/console" />
     <file type="web" url="file://$PROJECT_DIR$/xxl-job-admin" />
+    <file type="web" url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-jfinal/xxl-rpc-sample-jfinal-client" />
+    <file type="web" url="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-jfinal/xxl-rpc-sample-jfinal-server" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -15,6 +17,7 @@
         <option value="$PROJECT_DIR$/xxl-job-executor-springboot-example/pom.xml" />
         <option value="$PROJECT_DIR$/xxl-job-executor-sample-springboot/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xxl-rpc/pom.xml" />
       </list>
     </option>
   </component>

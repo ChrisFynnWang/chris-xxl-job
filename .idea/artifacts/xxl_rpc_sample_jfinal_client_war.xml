@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xxl-rpc-sample-jfinal-client:war">
+    <output-path>$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-jfinal/xxl-rpc-sample-jfinal-client/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>xxl-rpc-sample-jfinal-client</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="xxl-rpc-sample-jfinal-client-1.5.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="xxl-rpc-sample-jfinal-client:war exploded" />
+    </root>
+  </artifact>
+</component>
