@@ -55,12 +55,14 @@ public class JobRegistryMonitorHelper {
 										if (!registryList.contains(item.getRegistryValue())) {
 											registryList.add(item.getRegistryValue());
 										}
+										//一个appName 可以对应对个address
 										appAddressMap.put(appName, registryList);
 									}
 								}
 							}
 
 							// fresh group address
+                            // 一个group 对应一个appName
 							for (XxlJobGroup group: groupList) {
 								List<String> registryList = appAddressMap.get(group.getAppName());
 								String addressListStr = null;
@@ -82,6 +84,7 @@ public class JobRegistryMonitorHelper {
 						}
 					}
 					try {
+					    //每30秒钟才去监控一下executor
 						TimeUnit.SECONDS.sleep(RegistryConfig.BEAT_TIMEOUT);
 					} catch (InterruptedException e) {
 						if (!toStop) {
