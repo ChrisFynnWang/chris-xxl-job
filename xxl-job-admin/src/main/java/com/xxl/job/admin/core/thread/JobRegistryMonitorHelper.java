@@ -84,7 +84,7 @@ public class JobRegistryMonitorHelper {
 						}
 					}
 					try {
-					    //每30秒钟才去监控一下executor
+					    //每30秒钟才去监控一下executor心跳
 						TimeUnit.SECONDS.sleep(RegistryConfig.BEAT_TIMEOUT);
 					} catch (InterruptedException e) {
 						if (!toStop) {
