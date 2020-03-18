@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da9a1449-745c-4c37-b159-f4936f441074" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_43_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_43_Final.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/META-INF/xxl-job-admin.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/test-classes/META-INF/xxl-job-admin.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/classes/com/xxl/job/executor/service/jobhandler/DemoJobHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/classes/com/xxl/job/executor/service/jobhandler/SampleXxlJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobScheduleHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobScheduleHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-rpc" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-rpc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/common/ConnectClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/common/ConnectClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/executor/target/" />
     <ignored path="$PROJECT_DIR$/console/target/" />
@@ -47,15 +42,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/server/NettyHttpServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="257">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="e#1756#1910#0" expanded="true" />
                 <element signature="e#1909#1910#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobScheduleHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -71,14 +75,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>trigger</find>
-      <find>XxlRpcReferenceBean</find>
-      <find>xxl-rpc-co</find>
-      <find>The timestamp difference</find>
-      <find>Quartz</find>
-      <find>xxl_job_info</find>
-      <find>destroy&quot;</find>
-      <find>afterPropertiesSet</find>
       <find>t.address_type</find>
       <find>findByAddressType</find>
       <find>setDaemon</find>
@@ -101,17 +97,25 @@
       <find>inv</find>
       <find>invokeService</find>
       <find>channelRead0</find>
+      <find>new ServerBootstrap()</find>
+      <find>XxlRpcSpringProviderFactory</find>
+      <find>new Bootstrap()</find>
+      <find>BEAT_PING_PONG</find>
+      <find>clazz</find>
+      <find>serialize(</find>
+      <find>for update</find>
+      <find>channelRead</find>
     </findStrings>
     <dirStrings>
-      <dir>D:\github\wangfan-job\xxl-rpc</dir>
       <dir>D:\github\wangfan-job\xxl-job-executor-samples</dir>
       <dir>D:\github\wangfan-job\xxl-job-core</dir>
       <dir>D:\github\wangfan-job\xxl-job-admin</dir>
+      <dir>D:\github\wangfan-job\xxl-rpc</dir>
       <dir>D:\github\wangfan-job</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/xxl-rpc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -137,12 +141,13 @@
         <option value="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/main/java/com/xxl/job/executor/XxlJobExecutorApplication.java" />
         <option value="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/main/java/com/xxl/job/executor/service/jobhandler/DemoJobHandler.java" />
         <option value="$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/server/NettyHttpServerHandler.java" />
-        <option value="$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobScheduleHelper.java" />
         <option value="$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.java" />
         <option value="$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/invoker/reference/XxlRpcReferenceBean.java" />
         <option value="$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/trigger/XxlJobTrigger.java" />
         <option value="$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/client/NettyHttpConnectClient.java" />
         <option value="$PROJECT_DIR$/xxl-job-core/src/main/java/com/xxl/job/core/executor/XxlJobExecutor.java" />
+        <option value="$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/common/ConnectClient.java" />
+        <option value="$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobScheduleHelper.java" />
       </list>
     </option>
   </component>
@@ -174,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,6 +190,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -202,7 +207,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chris-netty" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -238,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Remote.console">
+  <component name="RunManager" selected="Remote.executor">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="wangfan-job" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -357,18 +362,19 @@
       <workItem from="1583919477011" duration="2590000" />
       <workItem from="1583924750002" duration="108000" />
       <workItem from="1583925441824" duration="6555000" />
-      <workItem from="1583994754855" duration="27972000" />
+      <workItem from="1583994754855" duration="29680000" />
+      <workItem from="1584340723397" duration="13997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49794000" />
+    <option name="totallyTimeSpent" value="65499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1978" y="-8" width="1870" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122099444" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09060773" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -376,8 +382,8 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3137056" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42233503" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3532995" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45279187" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -408,24 +414,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/conf/XxlJobAdminConfig.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/scheduler/XxlJobScheduler.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/scheduler/XxlJobScheduler.java</url>
           <line>105</line>
@@ -475,18 +463,6 @@
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/common/ConnectClient.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/invoker/reference/XxlRpcReferenceBean.java</url>
-          <line>238</line>
-          <properties />
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class</url>
           <line>685</line>
           <properties />
@@ -503,12 +479,6 @@
           <line>167</line>
           <properties />
           <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/server/NettyHttpServerHandler.java</url>
-          <line>90</line>
-          <properties />
-          <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/provider/XxlRpcProviderFactory.java</url>
@@ -558,334 +528,94 @@
           <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/trigger/XxlJobTrigger.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/client/NettyHttpConnectClient.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/server/NettyHttpServer.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-springboot/xxl-rpc-sample-springboot-server/src/main/java/com/xxl/rpc/sample/server/conf/XxlRpcProviderConfig.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/server/NettyHttpServer.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/server/NettyHttpServer.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/client/NettyHttpConnectClient.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/client/NettyHttpConnectClient.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/server/NettyHttpServerHandler.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/server/NettyHttpServerHandler.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/server/NettyHttpServerHandler.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/serialize/impl/Hessian1Serializer.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/serialize/impl/HessianSerializer.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="322" selection-start-line="322" selection-end-line="322" />
-          <folding>
-            <element signature="e#11999#12167#0" expanded="true" />
-            <element signature="e#12166#12167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/util/concurrent/PromiseTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/util/concurrent/ScheduledFutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
-          <folding>
-            <element signature="e#5947#5948#0" expanded="true" />
-            <element signature="e#6005#6006#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/util/concurrent/AbstractEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="493" selection-start-line="493" selection-end-line="493" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/CombinedChannelDuplexHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="244" column="40" selection-start-line="244" selection-start-column="40" selection-end-line="244" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="362" selection-start-line="362" selection-end-line="362" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/handler/codec/http/HttpObjectDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="451" selection-start-line="451" selection-end-line="451" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="477" column="39" selection-start-line="477" selection-start-column="39" selection-end-line="477" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/nio/NioEventLoop.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="352" selection-start-line="352" selection-end-line="352" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/invoker/annotation/XxlRpcReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/client/NettyHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/nio/NioEventLoopGroup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/invoker/XxlRpcInvokerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/AbstractChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="219" column="25" selection-start-line="219" selection-start-column="25" selection-end-line="219" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/handler/codec/http/DefaultFullHttpRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/conf/XxlJobAdminConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
-            <element signature="e#2473#2474#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3145#3146#0" expanded="true" />
-            <element signature="e#3192#3193#0" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-            <element signature="e#3626#3627#0" expanded="true" />
-            <element signature="e#3659#3660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/DefaultChannelPipeline.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="818" column="31" selection-start-line="818" selection-start-column="31" selection-end-line="818" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="671" column="23" lean-forward="true" selection-start-line="671" selection-start-column="23" selection-end-line="671" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/client/NettyHttpConnectClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="111" column="42" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="42" />
-          <folding>
-            <element signature="e#1881#2514#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="140" column="33" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
-          <folding>
-            <element signature="e#4077#4078#0" expanded="true" />
-            <element signature="e#4117#4118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-core/src/main/java/com/xxl/job/core/biz/ExecutorBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/scheduler/XxlJobScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="105" column="59" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="59" />
-          <folding>
-            <element signature="e#2373#2394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/params/XxlRpcRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-          <folding>
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="1341" column="16" selection-start-line="1341" selection-start-column="16" selection-end-line="1341" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/invoker/impl/XxlRpcSpringInvokerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="94" column="53" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/invoker/reference/impl/XxlRpcSpringReferenceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/xuxueli/xxl-rpc-core/1.5.0/xxl-rpc-core-1.5.0.jar!/com/xxl/rpc/remoting/invoker/reference/XxlRpcReferenceBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="151" column="111" lean-forward="true" selection-start-line="151" selection-start-column="111" selection-end-line="151" selection-end-column="111" />
-          <folding>
-            <element signature="e#5090#13245#0" expanded="true" />
-            <element signature="e#13244#13245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobTriggerPoolHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#4297#4298#0" expanded="true" />
-            <element signature="e#4327#4328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/trigger/XxlJobTrigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="195" selection-start-line="195" selection-end-line="195" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/invoker/reference/XxlRpcReferenceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="238" selection-start-line="238" selection-end-line="238" />
-          <folding>
-            <element signature="e#3173#3174#0" expanded="true" />
-            <element signature="e#3201#3202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/common/ConnectClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/provider/XxlRpcProviderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="237" column="50" selection-start-line="237" selection-start-column="41" selection-end-line="237" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="73" column="51" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/2.5.9/groovy-2.5.9.jar!/groovy/lang/GroovyClassLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="196" column="21" lean-forward="true" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
-          <folding>
-            <element signature="e#7128#7317#0" expanded="true" />
-            <element signature="e#7316#7317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xxl-job-core/src/main/java/com/xxl/job/core/glue/GlueFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -939,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-core/src/main/java/com/xxl/job/core/thread/JobThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/AbstractMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -964,21 +687,354 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/conf/XxlJobAdminConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2473#2474#0" expanded="true" />
+            <element signature="e#3110#3111#0" expanded="true" />
+            <element signature="e#3145#3146#0" expanded="true" />
+            <element signature="e#3192#3193#0" expanded="true" />
+            <element signature="e#3228#3229#0" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+            <element signature="e#3659#3660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/params/XxlRpcRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/handler/codec/http/DefaultFullHttpRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="136" column="36" lean-forward="true" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+          <folding>
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="e#4117#4118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/params/XxlRpcFutureResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="172" column="54" selection-start-line="172" selection-start-column="54" selection-end-line="172" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/client/NettyHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/util/AttributeMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/ChannelOutboundInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-frameless/xxl-rpc-sample-frameless-server/src/main/java/com/xxl/rpc/sample/server/XxlRpcServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-jfinal/xxl-rpc-sample-jfinal-server/src/main/java/com/xxl/rpc/sample/server/config/JFinalCoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-springboot/xxl-rpc-sample-springboot-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-samples/xxl-rpc-sample-springboot/xxl-rpc-sample-springboot-server/src/main/java/com/xxl/rpc/sample/server/conf/XxlRpcProviderConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding>
+            <element signature="e#758#784#1" expanded="true" />
+            <element signature="e#903#940#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.25.RELEASE/spring-beans-4.3.25.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.25.RELEASE/spring-beans-4.3.25.RELEASE.jar!/org/springframework/beans/factory/DisposableBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.25.RELEASE/spring-context-4.3.25.RELEASE.jar!/org/springframework/context/ApplicationContextAware.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/provider/impl/XxlRpcSpringProviderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/common/ConnectClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="111" column="38" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobTriggerPoolHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#4297#4298#0" expanded="true" />
+            <element signature="e#4327#4328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/scheduler/XxlJobScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="e#2373#2394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/trigger/XxlJobTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/invoker/reference/XxlRpcReferenceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+          <folding>
+            <element signature="e#3173#3174#0" expanded="true" />
+            <element signature="e#3201#3202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/server/NettyHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#1121#4158#0" expanded="true" />
+            <element signature="e#1947#2729#0" expanded="true" />
+            <element signature="e#2728#2729#0" expanded="true" />
+            <element signature="e#4157#4158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xxl-job-core/src/main/java/com/xxl/job/core/biz/impl/ExecutorBizImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="165" column="47" selection-start-line="165" selection-start-column="47" selection-end-line="165" selection-end-column="47" />
+        <state relative-caret-position="160">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-core/src/main/java/com/xxl/job/core/thread/JobThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/client/NettyHttpConnectClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="e#1881#2514#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/provider/XxlRpcProviderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+          <folding>
+            <element signature="e#2317#2318#0" expanded="true" />
+            <element signature="e#2349#2350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/serialize/impl/Hessian1Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/serialize/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/caucho/hessian/4.0.63/hessian-4.0.63.jar!/com/caucho/hessian/io/Hessian2Input.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="2234" column="18" selection-start-line="2234" selection-start-column="18" selection-end-line="2234" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/serialize/impl/HessianSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty/server/NettyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/buffer/ByteBufUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="621" column="25" selection-start-line="621" selection-start-column="25" selection-end-line="621" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/params/Beat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xxl-rpc/xxl-rpc-core/src/main/java/com/xxl/rpc/remoting/net/impl/netty_http/server/NettyHttpServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="257">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="e#1756#1910#0" expanded="true" />
             <element signature="e#1909#1910#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobScheduleHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
         </state>
       </provider>
     </entry>

@@ -69,6 +69,7 @@ public class JobScheduleHelper {
                         connAutoCommit = conn.getAutoCommit();
                         conn.setAutoCommit(false);
 
+                        //使用for update 做一个同步锁定
                         preparedStatement = conn.prepareStatement(  "select * from xxl_job_lock where lock_name = 'schedule_lock' for update" );
                         preparedStatement.execute();
 
